@@ -25,7 +25,7 @@ export default {
 
     addTask() {
       console.log('new task');
-      this.newTask(this.newTask);
+      this.task.push({ text: this.newTask, done: false });
     },
 
     removetask(index) {
